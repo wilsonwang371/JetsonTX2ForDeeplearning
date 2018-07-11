@@ -93,3 +93,31 @@ python3 -c 'import cv2; print(cv2.__version__)'
 python2 -c 'import cv2; print(cv2.__version__)'
 # expect 3.4.0
 ```
+
+## Tensorflow Install
+
+I highly recommend to install prebuild binary. As suggested from https://github.com/JasonAtNvidia/JetsonTFBuild
+
+Otherwise, please follow the link to compile and install tensorflow.
+
+Note: place make sure the versions of dependencies meet the requirement, otherwise, you will see errors like not being able to find a particular library.
+
+```
+echo "Python2.7 Setup"
+wget http://xiaoshuangwang.net/tensorflow-1.8.0-cp27-cp27mu-linux_aarch64.whl
+sudo pip2 install tensorflow-1.8.0-cp27-cp27mu-linux_aarch64.whl
+echo "Python3.5 Setup"
+wget http://xiaoshuangwang.net/tensorflow-1.8.0-cp35-cp35m-linux_aarch64.whl
+sudo pip3 install tensorflow-1.8.0-cp35-cp35m-linux_aarch64.whl
+```
+
+## Keras Install
+```
+#!/usr/bin/env bash
+echo "Install dependencies"
+sudo apt-get -y install libhdf5-serial-dev hdf5-tools
+# for python3
+sudo -H pip3 install keras
+# for python2
+sudo -H pip2 install keras
+```
