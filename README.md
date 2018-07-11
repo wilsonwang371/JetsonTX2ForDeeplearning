@@ -103,10 +103,10 @@ Otherwise, please follow the link to compile and install tensorflow.
 Note: place make sure the versions of dependencies meet the requirement, otherwise, you will see errors like not being able to find a particular library.
 
 ```
-echo "Python2.7 Setup"
+echo "Tensorflow for Python2.7 Setup"
 wget http://xiaoshuangwang.net/tensorflow-1.8.0-cp27-cp27mu-linux_aarch64.whl
 sudo pip2 install tensorflow-1.8.0-cp27-cp27mu-linux_aarch64.whl
-echo "Python3.5 Setup"
+echo "Tensorflow for Python3.5 Setup"
 wget http://xiaoshuangwang.net/tensorflow-1.8.0-cp35-cp35m-linux_aarch64.whl
 sudo pip3 install tensorflow-1.8.0-cp35-cp35m-linux_aarch64.whl
 ```
