@@ -29,7 +29,7 @@ I highly recommend to install prebuild binary. As suggested from https://github.
 
 Otherwise, please follow the link to compile and install tensorflow.
 
-Note: place make sure the versions of dependencies meet the requirement, otherwise, you will see errors like not being able to find a particular library.
+Note: please make sure the versions of dependencies meet the requirement, otherwise, you will see errors like not being able to find a particular library.
 
 ```
 ./install_tensorflow.sh
